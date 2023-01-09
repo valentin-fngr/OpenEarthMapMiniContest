@@ -104,7 +104,7 @@ def get_optimizer(network, args):
     return optimizer 
 
 def get_scheduler(args, optimizer): 
-    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, args.lr)
+    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=args.epochs, verbose=True)
     return scheduler 
 
 
