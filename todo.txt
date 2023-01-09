@@ -1,0 +1,10 @@
+models 
+
+
+convit_base 
+vit_base_patch8_224_in21k
+vit_base_r50_s16_224
+vit_base_resnet50_384
+resnet50d
+seresnet50
+wide_resnet50_2
